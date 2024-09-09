@@ -1,0 +1,16 @@
+  996  grep -o '\w*dred\w*' goodluck.txt\n
+  997  grep 'Good luck, baba' goodluck.txt
+  998  grep 'Good luck, babe' goodluck.txt
+  999  grep 'Good luck, babe' filename.txt | wc -lw
+ 1000  grep 'Good luck, babe' goodluck.txt | wc -lw
+ 1001  grep -o '\bwor\w*' goodluck.txt
+ 1002  grep -o '\w*dred\w*' goodluck.txt
+ 1003  grep "Good luck, babe" goodluck.txt
+ 1004  grep "Good luck, babe" goodluck.txt | wc -lw
+ 1005  grep "Good luck, babe" goodluck.txt | wc -lw > huh-m_a2_counts.txt
+ 1006  vi huh-m_a2_counts.txt
+ 1007  cd ..
+ 1008  cd ..
+ 1009  ls
+ 1010  cd mini-assignments
+ 1011  cd mini-assignments-mikeshuh

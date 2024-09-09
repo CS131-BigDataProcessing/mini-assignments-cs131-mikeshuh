@@ -1,0 +1,11 @@
+       6      78
+
+The command <grep "Good luck, babe" goodluck.txt> searches for and outputs all the lines that contain
+"Good luck, babe".
+
+The command <| wc -lw> pipes the output of grep to wc.
+The argument <-l> counts the number of lines.
+The argument <-w> counts the number of words.
+Short operations like <-l> and <-w> can be combined into a single command argument like <-lw>.
+From the output, we know that the number of lines that contain "Good luck, babe" in goodluck.txt is 6.
+And, we know that the number of words from the output of <grep "Good luck, babe" goodluck.txt> is 78.
