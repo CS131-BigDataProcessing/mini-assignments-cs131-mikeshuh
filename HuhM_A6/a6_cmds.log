@@ -1,0 +1,6 @@
+ 1001  awk -F, '!seen[$4]++ { print $4 }' airline_stats.csv
+ 1002  awk -F, '$1 > 10 && !seen[$4]++ { print $4 }' airline_stats.csv | sort
+ 1003  Threshold=15
+ 1004  echo "$Threshold"
+ 1005  awk -v Threshold="$Threshold" -F, '$1 > Threshold && !seen[$4]++ { print $4 }' airline_stats.csv
+ 1006  vi airline_inquiry.txt
