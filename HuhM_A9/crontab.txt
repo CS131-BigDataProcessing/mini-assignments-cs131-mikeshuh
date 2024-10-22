@@ -1,0 +1,3 @@
+0 2 * * * rm -rf /Users/michaelhuh/Documents/SJSU/24-25/FA_24/CS-131_big-data-processing/A9-temp/*
+0 3 * * 0 /Users/michaelhuh/Documents/SJSU/24-25/FA_24/CS-131_big-data-processing/mini-assignments-cs131-mikeshuh/HuhM_A9/backup.sh
+30 8 * * * df -h | mail -s "Daily Disk Usage Report" mikeysh723@gmail.com

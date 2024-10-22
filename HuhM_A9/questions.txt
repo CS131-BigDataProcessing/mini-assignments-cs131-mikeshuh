@@ -1,0 +1,11 @@
+a.
+Many tasks can benefit from automation using cron or at. For example, log rotation
+can be automated to archive or delete old logs regularly, helping manage disk space
+more efficiently. Another useful automation is scheduling database backups during 
+non-peak hours to protect data without disrupting users.
+
+b.
+Poorly managed automated tasks come with risks, like data loss if backups are not
+correctly scheduled or tested, and system overload if too many resource-heavy tasks
+run simultaneously. To prevent these issues, it's important to regularly test your
+backup processes and stagger automated tasks to balance system resource usage effectively.
