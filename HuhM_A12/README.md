@@ -5,5 +5,5 @@ This package provides functions to validate columns in a crime dataset and funct
 In order to install this package, use pip:
 
 ```bash
-pip install git+https://github.com/mikeshuh/crime_test.git
+pip install git+https://github.com/CS131-BigDataProcessing/mini-assignments-cs131-mikeshuh.git@main#subdirectory=HuhM_A12
 ```
