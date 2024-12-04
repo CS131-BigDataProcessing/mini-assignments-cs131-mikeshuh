@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: crime_dataset_test
+Version: 1.0
+Summary: A simple crime dataset package
+Author: Michael Huh
+Author-email: michael.huh@sjsu.edu
+Requires-Dist: pandas
+Requires-Dist: numpy
